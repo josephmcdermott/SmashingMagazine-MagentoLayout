@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <default>
+        <reference name="before_body_end">
+            <block type="smashingmagazine_layout/footer" name="smashingmagazine_layout_footer" template="smashingmagazine_layout/footer.phtml" />
+        </reference>
+    </default>
+</layout>

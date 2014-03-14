@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <SmashingMagazine_Layout>
+            <version>0.0.1</version>
+        </SmashingMagazine_Layout>
+    </modules>
+    <global>
+        <blocks>
+            <smashingmagazine_layout>
+                <class>SmashingMagazine_Layout_Block</class>
+            </smashingmagazine_layout>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <smashingmagazine_layout module="SmashingMagazine_Layout">
+                    <file>smashingmagazine_layout.xml</file>
+                </smashingmagazine_layout>
+            </updates>
+        </layout>
+    </frontend>
+</config>
